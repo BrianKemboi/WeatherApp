@@ -57,7 +57,7 @@
                 let cityName = forecast.city.name
                 let country = forecast.city.country
 
-                html += '<h3> Weather Forecast for ${cityName},${country} </h3>'
+                html += '<h3> Weather Forecast for ${cityName}, ${country} </h3>'
                 forecast.list.forEach(function(forecastEntry, index, list){
                     html += '<p> ${forecastEntry.dt_txt}: ${forecastEntry.main.temp} </p>'
                 })
